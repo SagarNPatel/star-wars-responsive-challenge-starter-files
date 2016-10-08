@@ -1,36 +1,40 @@
 header {
-	position: fixed;
-	background-color: #EFBC44;
-	top: 0;
-	left: 0;
-  	right: 0;
+	background-color: #eebb44;
+	margin-bottom: 40px;
 }
 
-nav.head {
-	padding-left: 180px;
+body {
+  font-family: "Roboto", sans-serif;
+  color: #252525;
 }
 
-main {
-	padding-top: 180px;
-} 
+header h1 {
+  line-height: 1;
+  margin-bottom: 0;
+}
 
-main .row {
-  margin-bottom: 20px;
+header p {
+  margin-top: 0.5em;
 }
 
 .box {
-	height: 200px;
-	text-align: left;
-	padding-bottom: 10px;
-	border: 1px solid lightgrey;
+	border: 1px solid #E5E5E5;
+	margin-bottom: 20px;
 }
 
-.img {
+.image {
 	width: 100%;
-	height: 80%;
 }
 
-div.row p {
-	font-size: 10px;
-	margin-left: 10px;
+.box-content {
+	padding: 20px;
+}
+
+.box-content h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.card-content p {
+  margin: 0.5em 0;
 }
